@@ -20,4 +20,4 @@ Spring boot File to run : AssignmentApplication.java
 Package : com.api.assignment
 
 
-Postman Collection is in the root of the project: Person.postman_collection.json
+Postman Collection is in the root of the Repository: Person.postman_collection.json
