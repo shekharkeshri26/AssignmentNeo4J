@@ -1,0 +1,118 @@
+{
+	"id": "3a2256f0-f1d2-38af-0a3f-0a607b63f4af",
+	"name": "Person",
+	"description": "",
+	"order": [
+		"dcccfd33-8912-a1a8-869c-268f21224a61",
+		"d4d1d132-443a-afbe-29a7-52a2b4d8abbb",
+		"9fa194e6-7d26-c10f-0d81-c2fc8f25aa42",
+		"66698571-3dbc-d8d2-8621-0acd897bde2d"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1582523878688,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "66698571-3dbc-d8d2-8621-0acd897bde2d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/person/v1/person/29",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582552658539,
+			"name": "Delete Person",
+			"description": "",
+			"collectionId": "3a2256f0-f1d2-38af-0a3f-0a607b63f4af",
+			"responses": []
+		},
+		{
+			"id": "9fa194e6-7d26-c10f-0d81-c2fc8f25aa42",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/person/v1/person",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582552665039,
+			"name": "Update Person",
+			"description": "",
+			"collectionId": "3a2256f0-f1d2-38af-0a3f-0a607b63f4af",
+			"responses": [],
+			"rawModeData": "{\n    \"id\": 29,\n    \"name\": \"Sandeep dubey2\",\n    \"email\": \"sandeep@abc.com\",\n    \"phoneNumber\": \"2331345\",\n    \"createDate\": \"24-02-2020 18:46:01\",\n    \"modifyDate\": null,\n    \"location\": {\n        \"id\": 30,\n        \"city\": \"Delhi\"\n    }\n}"
+		},
+		{
+			"id": "d4d1d132-443a-afbe-29a7-52a2b4d8abbb",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/person/v1/person/29",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582552661900,
+			"name": "Get Person",
+			"description": "",
+			"collectionId": "3a2256f0-f1d2-38af-0a3f-0a607b63f4af",
+			"responses": []
+		},
+		{
+			"id": "dcccfd33-8912-a1a8-869c-268f21224a61",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/person/v1/person",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1582552640199,
+			"name": "Save Person",
+			"description": "",
+			"collectionId": "3a2256f0-f1d2-38af-0a3f-0a607b63f4af",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"Sandeep dubey\",\n\t\"email\": \"sandeep@abc.com\",\n    \"phoneNumber\": \"2331345\",\n\t\"location\":{\n\t\t\"city\":\"Delhi\"\n\t}\n}"
+		}
+	]
+}
